@@ -9,7 +9,7 @@ vagrant ssh -- -t 'curl -sL https://deb.nodesource.com/setup_4.x | sudo -E bash 
                    git clone https://github.com/bomattin/ng-client;
                    mv -r ng-client ng-api/public;
                    cd ng-api;
-
+                   npm install;
                    node bin/www;
                    /bin/bash;';
 
